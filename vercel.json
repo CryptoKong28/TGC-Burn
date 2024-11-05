@@ -1,7 +1,8 @@
 {
   "version": 2,
   "functions": {
-    "api/reflections.py": {
+    "api/*.py": {
+      "runtime": "python3.9",
       "memory": 1024,
       "maxDuration": 10
     }
