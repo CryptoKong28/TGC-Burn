@@ -4,6 +4,6 @@
     { "src": "api/hello.py", "use": "@vercel/python@3.9" }
   ],
   "routes": [
-    { "src": "/api/hello", "dest": "api/reflections.py" }
+    { "src": "/api/hello", "dest": "api/hello.py" }
   ]
 }
