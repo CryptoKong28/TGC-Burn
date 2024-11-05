@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/track_reflections.py", "use": "@vercel/python@3.9" }
+    { "src": "api/hello.py", "use": "@vercel/python@3.9" }
   ],
   "routes": [
-    { "src": "/api/reflections", "dest": "api/reflections.py" }
+    { "src": "/api/hello", "dest": "api/reflections.py" }
   ]
 }
